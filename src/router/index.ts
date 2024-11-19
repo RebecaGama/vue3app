@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import VocabuloView from '../views/VocabuloView.vue'
+import AnuncioView from '../views/AnuncioView.vue'
 
 const routes = [
   {
@@ -12,6 +13,11 @@ const routes = [
     path: '/vocabulo',
     name: 'vocabulo',
     component: VocabuloView,
+  },
+  {
+    path: '/anuncio',
+    name: 'anuncio',
+    component: AnuncioView,
   },
 ]
 
